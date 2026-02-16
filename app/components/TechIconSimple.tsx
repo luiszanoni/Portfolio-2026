@@ -16,7 +16,7 @@ const TechIcon: React.FC<TechIconProps> = ({ name, size = 16 }) => {
     .replace('chart.js', 'chartjs')
     .replace('d3.js', 'd3js');
   
-  const svgPath = `/svg-icons/${fileName}.svg`;
+  const svgPath = `svg-icons/${fileName}.svg`;
   
   return (
     <img 

@@ -89,7 +89,7 @@ const Projects = () => {
       links: {
         live: 'https://www.keepkoin.com.br/'
       },
-      screenshots: ['/api/placeholder/600/400', '/api/placeholder/600/400']
+      screenshots: []
     }
   ];
 
