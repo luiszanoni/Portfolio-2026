@@ -47,16 +47,16 @@ const Career = () => {
       title: 'Formação em Tecnologia de Análise e Desenvolvimento de Sistemas',
       company: 'FAESA',
       period: '2021 - 2024',
-      description: 'Formacao academica pela FAESA como Tecnologo em analise e desenvolvimento de sistemas.',
+      description: 'Formação acadêmica pela FAESA como Tecnólogo em Análise e Desenvolvimento de Sistemas.',
       technologies: [],
       type: 'education'
     },
     {
       id: 2,
-      title: 'Estagiario de Desenvolvedor Full-Stack',
-      company: 'BANESTES - Banco estadual do Espirito Santo',
+      title: 'Estagiário de Desenvolvedor Full Stack',
+      company: 'BANESTES - Banco Estadual do Espírito Santo',
       period: '2023 - 2025',
-      description: 'Estruturação e manutenção de banco de dados Oracle DB, construção e desenvolvimento de APIs REST utilizando o Spring Boot Framework (Java), construção e desenvolvimento de aplicações BATCH utilizando o Spring Batch, construção e desenvolvimento de aplicações Web com Angular 7 a 18 e PrimeNG, desenvolvimento de Testes Unitários para manutenção de códigos utilizando JUnit e Mockito.',
+      description: 'Estruturação e manutenção de bancos de dados Oracle; desenvolvimento de APIs REST com Spring Boot (Java); criação de aplicações batch com Spring Batch; desenvolvimento de aplicações web com Angular (versões 7 a 18) e PrimeNG; desenvolvimento de testes unitários com JUnit e Mockito.',
       technologies: ['Java', 'Spring Boot', 'Spring Batch', 'Angular', 'PrimeNG', 'JUnit', 'Mockito', 'Oracle DB', 'SQL'
          ,'TypeScript',
       ],
@@ -68,11 +68,11 @@ const Career = () => {
       company: 'Evologica Tecnologia e Pesquisa',
       period: 'Maio 2025 - Presente',
       description: 'Desenvolvimento de aplicações web completas, integração com APIs e otimização de performance.' +  
-      ' Como desenvolvedor na Evologica atuei ativamente no sistema de Seguradora desenvolvida para o BANESTES, ' + 
-      'Participei como Lead Developer do Projeto Cognera, uma plataforma de triagem e tratamento psicologico para '+
-      'empresas e seus colboradores, com graficos, relatorios e questionarios desenvolvidos.' +
-      ' Desenvolvi um aplicativo de Mensageria plug-and-play para a Empresa implementar em seus sistemas utilizando Delphi, framework autoral da Evologica, Curio, '
-      + ' com integracao a API do whatsapp e SMTP Services para envio de emails.',
+      ' Como desenvolvedor na Evologica, atuei ativamente no sistema de seguros desenvolvido para o BANESTES. ' + 
+      ' Participei como líder de desenvolvimento do projeto Cognera, uma plataforma de triagem e tratamento psicológico para '+
+      ' empresas e seus colaboradores, com gráficos, relatórios e questionários. ' +
+      ' Desenvolvi um aplicativo de mensageria plug-and-play para a empresa integrar aos seus sistemas, utilizando Delphi e o framework autoral da Evologica, Curio,'
+      + ' com integração à API do WhatsApp e serviços SMTP para envio de e-mails.',
       technologies: ['Delphi','Java','React.js','TypeScript','SpringBoot','SQLServer',
         'Curio Framework', 'JavaScript', 'UML', 'Model Driven Development', 'WhatsApp API', 'SMTP Services'],
       type: 'work'

@@ -101,10 +101,10 @@ const Hero = () => {
               </Box>
               
               <Box sx={{ display: 'flex', gap: 2, justifyContent: { xs: 'center', lg: 'flex-start' } }}>
-                <IconButton color="inherit" href="https://github.com" target="_blank">
+                <IconButton color="inherit" href="https://github.com/luiszanoni" target="_blank">
                   <GitHubIcon />
                 </IconButton>
-                <IconButton color="inherit" href="https://linkedin.com" target="_blank">
+                <IconButton color="inherit" href="https://www.linkedin.com/in/luiszanoni/" target="_blank">
                   <LinkedInIcon />
                 </IconButton>
               </Box>

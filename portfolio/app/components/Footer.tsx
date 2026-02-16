@@ -30,7 +30,6 @@ const Footer = () => {
 
   const quickLinks = [
     { name: 'Início', href: '#home' },
-    { name: 'Sobre', href: '#about' },
     { name: 'Projetos', href: '#projects' },
     { name: 'Carreira', href: '#career' }
   ];
@@ -57,10 +56,10 @@ const Footer = () => {
           {/* Brand */}
           <Grid size={{ xs: 12, md: 4 }}>
             <Typography variant="h5" fontWeight="bold" gutterBottom>
-              Esse é meu portfolio.
+              Este é meu portfólio.
             </Typography>
             <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
-             Gostou do meu trabalho? Entre em contato comigo no linkedin! Sempre aberto a novos projetos e colaborações.
+             Gostou do meu trabalho? Entre em contato comigo no LinkedIn! Estou sempre aberto a novos projetos e colaborações.
             </Typography>
             <Box sx={{ display: 'flex', gap: 1 }}>
               {socialLinks.map((social) => (
@@ -125,7 +124,7 @@ const Footer = () => {
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                 <LocationOnIcon color="primary" />
                 <Typography variant="body2" color="text.secondary">
-                  Espirito Santo, Brasil
+                  Espírito Santo, Brasil
                 </Typography>
               </Box>
             </Box>
@@ -141,7 +140,7 @@ const Footer = () => {
           }}
         >
           <Typography variant="body2" color="text.secondary">
-            Porfolio em desenvolvimento de um desenvolvedor em evolução.
+            Portfólio em desenvolvimento de um desenvolvedor em evolução.
           </Typography>
         </Box>
       </Container>

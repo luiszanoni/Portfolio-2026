@@ -46,10 +46,10 @@ const Projects = () => {
     {
       id: 1,
       title: 'Sistema de Seguros BANESTES',
-      description: 'Plataforma de Seguros desenvolvida para o BANESTES pela Evologica, uma instituição financeira capixaba. Atuo nesse projeto realizando manutenções e implementações de novas funcionalidades.',
+      description: 'Plataforma de seguros desenvolvida para o BANESTES pela Evologica. Atuo neste projeto realizando manutenções e implementando novas funcionalidades.',
       image: 'assets/evologica-logo.jpg',
       technologies: ['Delphi', 'JavaScript','React',  'SQLServer' ],
-      tags: ['Full Stack', 'Seguradora', 'Finance', 'Empresarial', 'Alta escala'],
+      tags: ['Full Stack', 'Seguradora', 'Finanças', 'Empresarial', 'Alta escala'],
       links: {
       },
       screenshots: []
@@ -57,10 +57,10 @@ const Projects = () => {
     {
       id: 2,
       title: 'Cognera',
-      description: 'A cognera e uma plataforma de Saude Mental que oferece as empresas o mapeamento e diagnostico de estado de saude mental dos seus Colaboradores, alem do seu encaminhamento para profissionais de Saude Mental e acompanhamento ativo de seus Colaboradores. Desenvolvido para a Evologica Tecnologia e Pesquisa, sou um dos Desenvolvedores principais desse projeto atuando em todas as suas fases de desenvolvimento.',
+      description: 'A Cognera é uma plataforma de saúde mental que oferece às empresas o mapeamento e o diagnóstico do estado de saúde mental de seus colaboradores, além do encaminhamento para profissionais e do acompanhamento ativo. Desenvolvida pela Evologica Tecnologia e Pesquisa, sou um dos desenvolvedores principais do projeto, atuando em todas as suas fases.',
       image: 'assets/cognera01.png',
-      technologies: ['React', 'TypeScript', 'Java', 'SpringBoot', 'Curio Framework', 'SQLServer'	],
-      tags: ['Saude Mental', 'Relatorios', 'Graficos', 'Full Stack'],
+      technologies: ['React', 'TypeScript', 'Java', 'SpringBoot', 'CurioFramework', 'SQLServer'	],
+      tags: ['Saúde mental', 'Relatórios', 'Gráficos', 'Full Stack'],
       links: {
         landingpage: 'https://www.cognera.com.br/'
       },
@@ -71,8 +71,8 @@ const Projects = () => {
       title: 'EvoNotifica',
       description: 'Sistema de mensageria plug-and-play com suporte a múltiplos protocolos de comunicação desenvolvido na Evologica Tecnologia e Pesquisa.',
       image: 'assets/evologica-logo.jpg',
-      technologies: ['Delphi', 'SQL Server', 'JavaScript', 'Curio Framework',],
-      tags: ['Messaging', 'Plug-and-Play', 'Multi-Protocol', 'WhatsApp API', 'SMS', 'SMTP'],
+      technologies: ['Delphi', 'SQLServer', 'JavaScript', 'CurioFramework',],
+      tags: ['Mensageria', 'Plug-and-play', 'Multi-protocolo', 'WhatsApp API', 'SMS', 'SMTP'],
       links: {
       },
       screenshots: []
@@ -80,12 +80,12 @@ const Projects = () => {
     {
       id: 4,
       title: 'KeepKoin',
-      description: 'KeepKoin é uma aplicação web moderna de gestão financeira pessoal desenvolvida com React, TypeScript e Material-UI, oferecendo uma experiência completa e responsiva para controle de finanças pessoais.'
-      +' A ideia do keepkoin e facilitar o uso de aplicacoes de financas pessoais e oferecer total customizacao para seu usuario a um valor acessivel.'
-      + ' Por ainda ser um projeto em andamento ainda nao esta disponivel para o uso publico.',
+      description: 'KeepKoin é uma aplicação web moderna de gestão financeira pessoal desenvolvida com React, TypeScript e Material UI, oferecendo uma experiência completa e responsiva para controle de finanças pessoais.'
+      +' A ideia do KeepKoin é facilitar o uso de aplicações de finanças pessoais e oferecer total customização ao usuário, a um valor acessível.'
+      + ' Por ser um projeto em andamento, ainda não está disponível para uso público.',
       image: 'assets/keepkoin01.png',
       technologies: ['TypeScript', 'React', 'Supabase', 'PostgreSQL'],
-      tags: ['Autoral', 'Software as a Service', 'Finance'],
+      tags: ['Autoral', 'Software as a Service', 'Finanças'],
       links: {
         live: 'https://www.keepkoin.com.br/'
       },
