@@ -7,7 +7,7 @@ interface TechIconProps {
 
 const TechIcon: React.FC<TechIconProps> = ({ name, size = 16 }) => {
   // Converte o nome da tecnologia para o nome do arquivo
-  const fileName = name.toLowerCase()
+  const fileNameRaw = name.toLowerCase()
     .replace(/\./g, '')
     .replace(/\s+/g, '-')
     .replace('react-native', 'reactnative')
@@ -15,6 +15,10 @@ const TechIcon: React.FC<TechIconProps> = ({ name, size = 16 }) => {
     .replace('fastapi', 'fastapi')
     .replace('chart.js', 'chartjs')
     .replace('d3.js', 'd3js');
+  
+  const fileName = fileNameRaw
+    .replace('curioframework', 'curioFramework')
+    .replace('springboot', 'springBoot');
   
   const svgPath = `svg-icons/${fileName}.svg`;
   

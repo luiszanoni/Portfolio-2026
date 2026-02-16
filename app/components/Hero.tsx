@@ -127,7 +127,7 @@ const Hero = () => {
                 }}
               />
               <Avatar
-                src="/assets/1725451659776.jpg"
+                src="assets/1725451659776.jpg"
                 alt="Profile Picture"
                 sx={{
                   position: 'relative',

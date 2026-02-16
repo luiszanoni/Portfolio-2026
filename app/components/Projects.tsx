@@ -58,7 +58,7 @@ const Projects = () => {
       id: 2,
       title: 'Cognera',
       description: 'A Cognera é uma plataforma de saúde mental que oferece às empresas o mapeamento e o diagnóstico do estado de saúde mental de seus colaboradores, além do encaminhamento para profissionais e do acompanhamento ativo. Desenvolvida pela Evologica Tecnologia e Pesquisa, sou um dos desenvolvedores principais do projeto, atuando em todas as suas fases.',
-      image: 'assets/cognera01.png',
+      image: 'assets/Cognera01.png',
       technologies: ['React', 'TypeScript', 'Java', 'SpringBoot', 'CurioFramework', 'SQLServer'	],
       tags: ['Saúde mental', 'Relatórios', 'Gráficos', 'Full Stack'],
       links: {
@@ -83,7 +83,7 @@ const Projects = () => {
       description: 'KeepKoin é uma aplicação web moderna de gestão financeira pessoal desenvolvida com React, TypeScript e Material UI, oferecendo uma experiência completa e responsiva para controle de finanças pessoais.'
       +' A ideia do KeepKoin é facilitar o uso de aplicações de finanças pessoais e oferecer total customização ao usuário, a um valor acessível.'
       + ' Por ser um projeto em andamento, ainda não está disponível para uso público.',
-      image: 'assets/keepkoin01.png',
+      image: 'assets/KeepKoin01.png',
       technologies: ['TypeScript', 'React', 'Supabase', 'PostgreSQL'],
       tags: ['Autoral', 'Software as a Service', 'Finanças'],
       links: {
