@@ -76,7 +76,10 @@ const Hero = () => {
     >
       <Container maxWidth="xl" sx={{ position: 'relative' }}>
         <Grid container spacing={4} alignItems="center">
-          <Grid size={{ xs: 12, lg: 6 }}>
+          <Grid 
+            size={{ xs: 12, lg: 6 }} 
+            sx={{ order: { xs: 2, lg: 1 } }}
+          >
             <Box sx={{ textAlign: { xs: 'center', lg: 'left' } }}>
               <Typography variant="h2" component="h1" fontWeight="bold" gutterBottom sx={{ fontSize: { xs: '2.5rem', md: '3.5rem', lg: '4.5rem' } }}>
                 Olá, sou <Typography component="span" variant="inherit" color="primary">Luis Gustavo Zanoni</Typography>
@@ -111,7 +114,10 @@ const Hero = () => {
             </Box>
           </Grid>
           
-          <Grid size={{ xs: 12, lg: 6 }}>
+          <Grid 
+            size={{ xs: 12, lg: 6 }} 
+            sx={{ display: 'flex', justifyContent: 'center', position: 'relative', order: { xs: 1, lg: 2 } }}
+          >
             <Box sx={{ display: 'flex', justifyContent: 'center', position: 'relative' }}>
               <Box
                 sx={{

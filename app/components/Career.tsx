@@ -185,14 +185,19 @@ const Career = () => {
             aria-label="career filter"
             sx={{ 
               bgcolor: 'rgba(255, 255, 255, 0.05)', 
+              display: 'flex',
               flexWrap: 'wrap',
+              justifyContent: 'center',
+              gap: 1, 
               '& .MuiToggleButton-root': { 
                 color: 'text.secondary',
                 px: { xs: 2, sm: 3 },
                 py: { xs: 1, sm: 1.5 },
                 fontSize: { xs: '0.8rem', sm: '0.875rem' },
                 border: '1px solid rgba(255, 255, 255, 0.1)',
-                minWidth: { xs: '80px', sm: 'auto' },
+                flex: '1 1 0',
+                minWidth: 0,
+                maxWidth: { xs: 'calc((100% - 2 * 8px) / 3)', sm: 'none' },
                 '&.Mui-selected': {
                   color: 'white',
                   bgcolor: 'primary.main',

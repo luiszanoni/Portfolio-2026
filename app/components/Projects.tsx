@@ -365,12 +365,15 @@ const Projects = () => {
                     borderRadius: 2, 
                     bgcolor: 'rgba(255,255,255,0.05)', 
                     border: '1px solid rgba(255,255,255,0.1)',
-                    height: { xs: 200, md: 400 },
+                    height: { xs: 'auto', md: 400 },
+                    minHeight: { xs: 200, md: 400 },
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
                     justifyContent: 'center',
                     textAlign: 'center',
+                    overflowWrap: 'break-word',
+                    wordBreak: 'break-word',
                     p: 3
                   }}>
                     <Box sx={{ fontSize: 60, mb: 2, opacity: 0.5 }}>🔒</Box>
